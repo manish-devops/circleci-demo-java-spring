@@ -8,3 +8,9 @@ task build {
         println 'Hello Gradle'
     }
 }
+
+task test {
+    doLast {
+        println 'Test Stage'
+    }
+}
